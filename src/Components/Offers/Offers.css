@@ -30,13 +30,24 @@
 .offers-left button{
     width: 282px;
     height: 70px;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 35px;
-    background: red;
+    background-color: rgb(255, 255, 255);
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     margin-top: 30px;
     cursor: pointer;
+}
+
+.offers-left button:hover{
+    box-shadow: 2px 2px 4px 3px  rgb(161, 161, 161);
+}
+
+.offers-left button:active{
+    background-color: rgb(248, 193, 193);
 }
 
 .offers-left{
