@@ -2,6 +2,7 @@ import React from 'react'
 import './CSS/ShopCategory.css'
 import { ShopContext } from '../Context/ShopContext'
 import { useContext, props } from 'react'
+import '../App'
 
 
 const ShopCategory = () => {
